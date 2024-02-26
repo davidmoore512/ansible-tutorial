@@ -1,4 +1,9 @@
+[file_servers]
 micro1.dmo.sh
+
+[db_servers]
 micro2.dmo.sh
+
+[web_servers]
 itnomad.dmo.sh
 

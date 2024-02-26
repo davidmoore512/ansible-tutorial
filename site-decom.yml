@@ -1,0 +1,38 @@
+---
+
+- hosts: all
+  become: true
+  tasks:
+
+    - name: update repository index
+      package:
+        update_cache: yes
+
+- hosts: web_servers
+  become: true
+  tasks:
+
+    - name: remove apache and php
+      package:
+        name: 
+          - apache2
+          - libapache2-mod-php
+        state: absent
+
+- hosts: db_servers
+  become: true
+  tasks:
+ 
+    - name: remove mariadb
+      package:
+        name: mariadb-server 
+        state: absent
+
+- hosts: file_servers
+  become: true
+  tasks:
+
+    - name: remove samba package
+      package:
+        name: samba
+        state: absent
