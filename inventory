@@ -1,3 +1,4 @@
-micro1.dmo.sh apache_package=apache2 php_package=libapache2-mod-php
-micro2.dmo.sh apache_package=apache2 php_package=libapache2-mod-php
-itnomad.dmo.sh apache_package=apache2 php_package=libapache2-mod-php
+micro1.dmo.sh
+micro2.dmo.sh
+itnomad.dmo.sh
+
