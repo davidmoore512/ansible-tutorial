@@ -3,12 +3,12 @@ mail.zirp.net
 cloud.zirp.net
 
 [pool]
-ddns.hphoa.co
+ddns.hphoa.co ansible_port=25922
 
 [dmosh]
 port1.dmo.sh
 port2.dmo.sh
 truenas.dmo.sh
 proxmox.dmo.sh
-homebase.dmo.sh
+homebase.dmo.sh ansible_port=25922
 pc063130-deb.dmo.sh
