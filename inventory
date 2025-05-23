@@ -1,9 +1,14 @@
-[file_servers]
-micro1.dmo.sh
+[zirpnet]
+mail.zirp.net
+cloud.zirp.net
 
-[db_servers]
-micro2.dmo.sh
+[pool]
+ddns.hphoa.co
 
-[web_servers]
-itnomad.dmo.sh
-
+[dmosh]
+port1.dmo.sh
+port2.dmo.sh
+truenas.dmo.sh
+proxmox.dmo.sh
+homebase.dmo.sh
+pc063130-deb.dmo.sh
